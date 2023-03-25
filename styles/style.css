@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .move-right {
+    float: right;
+  }
+  .red {
+    margin-right: 5px;
+    color: #16d887;
+  }
+  /* buttons styles */
+  .primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    padding: 20px 25px;
+    background: #f15b22;
+    border-radius: 5px;
+    border: none;
+  }
+  .secondary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #f15b22;
+    padding: 20px 36px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+  }
+  /* header styles */
+  .header {
+    width: 100%;
+    height: 808px;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0.1px solid rgb(255, 255, 255);
+  }
+  .header-items {
+    max-width: 500px;
+    padding: 100px 215px 0 0;
+  }
+  .header-title {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #151414;
+    margin-bottom: 25px;
+  }
+  .header-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+    margin-bottom: 32px;
+  }
+  main {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  /* My Failures styles */
+  .my-failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+    margin-top: 100px;
+  }
+  .my-failure-list li {
+    list-style: none;
+  }
+  .my-failures-items {
+    max-width: 400px;
+    /* margin-left: 90px; */
+  }
+  .my-failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+  }
+  .my-failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+  }
+  .my-failure-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-left: 0;
+  }
+  /* my plan section */
+  .my-plans {
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  .my-plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+  }
+  .my-plan-items {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+  }
+  .my-plan-items-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .myPlanItemCard-img {
+    margin:  auto;
+  }
+  .myPlanItem-content{
+    text-align: center;
+    margin-top: 25px;
+  }
+  .myPlanItem-title {
+   font-weight: 800; 
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 16px;
+  }
+  .myPlanItemCard-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+  }
+  /* call now section */
+  .callNow-container {
+    width: 1139;
+    height: auto;
+    background-image: url("../images/watch.png"),
+      linear-gradient(90deg, rgba(241, 91, 34, 1) 0%, rgba(3, 2, 2, 0) 100%);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-blend-mode: overlay;
+    padding: 60px 600px 60px 65px;
+  }
+  .callNow-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  /* what I do */
+  .wid-section-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+  }
+  .what-i-do {
+    margin-top: 130px;
+  }
+  .skills-container {
+    display: flex;
+     gap: 16px;
+    justify-content: space-around;
+  
+  }
+  .skill {
+    background: #ffffff;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 130px;
+    overflow: visible;
+  }
+  .skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .skill-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  /* footer */
+  footer {
+    height: 600px;
+    background: #151414;
+  }
+  .footerDiv {
+    max-width: 1139px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  .footerLeft-ctn {
+    max-width: 330px;
+  }
+  .footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #f8f8f8;
+    margin-bottom: 16px;
+  }
+  .footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  .footer-emPh {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .footer-icon {
+    display: flex;
+    gap: 15px;
+  }
+  .footerRight-ctn {
+    display: block;
+  }
+  .subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid #444343;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #151414;
+    margin-bottom: 15px;
+  }
